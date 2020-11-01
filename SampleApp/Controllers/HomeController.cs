@@ -20,7 +20,7 @@ namespace SampleApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(DateTime.Now);
         }
 
         public IActionResult Privacy()
